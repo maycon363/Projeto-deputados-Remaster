@@ -9,11 +9,12 @@ import ButtonTop from "./components/ButtonTop";
 import ScrollToTop from "./components/ScrollToTop";
 import LinearProgress from "./components/LinearProgress";
 
+const basename = "/Projeto-deputados-Remaster";
 
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename={basename}>
         <ScrollToTop />
         <Navbar />
         <LinearProgress />
