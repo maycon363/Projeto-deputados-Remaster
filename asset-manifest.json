@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Projeto-deputados-Remaster/static/css/main.6fd2e125.css",
-    "main.js": "/Projeto-deputados-Remaster/static/js/main.ba1029aa.js",
+    "main.js": "/Projeto-deputados-Remaster/static/js/main.bb1d08b1.js",
     "index.html": "/Projeto-deputados-Remaster/index.html",
     "main.6fd2e125.css.map": "/Projeto-deputados-Remaster/static/css/main.6fd2e125.css.map",
-    "main.ba1029aa.js.map": "/Projeto-deputados-Remaster/static/js/main.ba1029aa.js.map"
+    "main.bb1d08b1.js.map": "/Projeto-deputados-Remaster/static/js/main.bb1d08b1.js.map"
   },
   "entrypoints": [
     "static/css/main.6fd2e125.css",
-    "static/js/main.ba1029aa.js"
+    "static/js/main.bb1d08b1.js"
   ]
 }
