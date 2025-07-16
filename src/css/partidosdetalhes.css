@@ -1,0 +1,35 @@
+.partido-container {
+  padding: 20px;
+}
+
+.partido-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  text-align: center;
+}
+
+.partido-header h1 {
+  font-size: clamp(1.5rem, 5vw, 2.5rem);
+  color: var(--cor-cardfooter);
+}
+
+.partido-img {
+  width: 60px;
+  height: 50px;
+  object-fit: contain;
+}
+
+.partido-voltar {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+
+.title {
+  color: var(--cor-cardfooter);
+  text-align: center;
+}

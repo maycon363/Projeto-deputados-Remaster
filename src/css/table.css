@@ -1,0 +1,38 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.tabela-wrapper {
+  width: 100%;
+  overflow-x: auto;
+}
+
+td,
+th {
+  border: 1px solid var(--cor-destaque);
+  text-align: left;
+  padding: 8px;
+  color: var(--cor-cardfooter);
+}
+
+tr:nth-child(even) {
+  background-color: var(--cor-fundo);
+}
+
+.centralize {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.decoration-none {
+  text-decoration: none;
+  color: var(--cor-destaque);
+}
+
+.aliament {
+  margin-top: 20;
+}

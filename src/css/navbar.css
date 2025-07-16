@@ -1,0 +1,118 @@
+nav.navbar {
+  background-color: var(--cor-primaria);
+  color: var(--cor-texto);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 10;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.style-logo {
+  text-decoration: none;
+  color: var(--cor-texto);
+}
+
+.menu ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: var(--cor-texto);
+}
+
+.menu ul li {
+  margin-left: 20px;
+}
+
+.nav-link {
+  color: var(--cor-texto);
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: var(--cor-destaque);
+  border-bottom: 2px solid var(--cor-destaque);
+}
+
+.hamburger {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--cor-texto);
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Se o menu for colapsável, certifique-se de que ele não quebre o layout */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .navbar-right {
+    justify-items: center;
+  }
+
+  .navbar-left {
+    margin-bottom: 5px;
+  }
+
+  .menu ul {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+    margin-bottom: 10;
+  }
+
+  .menu {
+    display: none;
+    width: 100%;
+    background-color: var(--cor-primaria);
+    position: absolute;
+    top: 65px;
+    left: 0;
+    z-index: -22;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.3);
+  }
+
+  .menu.open {
+    display: block;
+  }
+
+  .menu ul {
+    flex-direction: column;
+    padding: 10px 0;
+    margin-top: 20px;
+  }
+
+  .menu ul li {
+    margin: 5px 0;
+    text-align: center;
+  }
+}
+

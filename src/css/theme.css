@@ -1,0 +1,23 @@
+:root {
+  --cor-primaria: #1c5834;
+  --cor-secundaria: #0066CC;
+  --cor-destaque: #F5A623; 
+  --cor-fundo: #F9FAFB;
+  --cor-texto: #f5f5f5;
+  --cor-cardfooter: #111827;
+  --cor-borda: #D1D5DB;
+  --cor-hover-nav: var(--cor-destaque);
+  --cor-hover-link: #f5f5f5;
+  --cor-loading: #18ad54;
+}
+
+[data-theme="dark"] {
+  --cor-primaria: #111827;
+  --cor-secundaria: #1c5834;
+  --cor-destaque: #F5A623;
+  --cor-fundo: #1A202C;
+  --cor-cardfooter: #F9FAFB;
+  --cor-texto: #F9FAFB;
+  --cor-borda: #4A5568;
+  --cor-loading: #18ad54;
+}
